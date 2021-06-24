@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * Chapter 4 Homework 3
+ * This will tell you what grade you got
+ * @author Avy
+ */
+
 public class Homework43_GradeCalculator {
 	
 	public static int readUserIntInput(String aInputMsg) {
