@@ -15,6 +15,6 @@ public class DataTypes {
 		boolean Accuracy = false;
 		
 		System.out.println("The car is going " + speed +" mph.");
-		System.out.println(Accuracy);
+		System.out.println("My name is " + name.toUpperCase() + ("."));
 	}
 }
