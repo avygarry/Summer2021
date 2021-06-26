@@ -18,7 +18,7 @@ public class Homework42_EmiCalculator {
 		float interest = readUserFloatInput("Enter the interest rate: ");
 		float time = readUserFloatInput("Enter how long it'll take to pay off the loan in months: ");
 //Calculates the EMI
-		float interestPerMonth = interest/(12*100);
+		float interestPerMonth = interest/(1200);
 		float EMI1 = loan * interestPerMonth;
 		float interest1 = interestPerMonth + 1;
 		double interest2 = Math.pow(interest1, time);
