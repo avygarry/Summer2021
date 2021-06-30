@@ -34,6 +34,16 @@ public class Homework48_AvishiRestaurant {
 		int VFTpizza = readUserIntInput("How many Vegitarian Venus Fly Trap Pizzas would you like to consume: ");
 		int BW = readUserIntInput("How many packs of Buffalo Wings would you like to consume: ");
 		int Brownies = readUserIntInput("How many Brownies would you like to consume: ");
+		float totalGCPizza = GCpizza * 15;
+		float totalCFPizza = CFpizza * 9;
+		float totalVFTPizza = VFTpizza * 80;
+		float totalBW = BW * 7;
+		float totalBrownies = Brownies * 24;
+		float total = totalGCPizza + totalCFPizza + totalVFTPizza + totalBW + totalBrownies;
+		float saleTax = (total * 0.2f);
+		float Final = total + saleTax;
+		
+		
 
 }
 }

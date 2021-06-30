@@ -76,12 +76,73 @@ public class Homework44_GradesCalculator {
 			scienceGrade = "F";
 		}
 		System.out.println("Name: " + name);
-		System.out.println("---------------------------");
+		System.out.println("------------------------------");
 		System.out.println("Subject   | Grade | Marks |");
-		System.out.println("---------------------------");
-		System.out.println("Math      |  " + mathGrade + "  |  " + mathScore + "   |");
-		System.out.println("English   |  " + englishGrade + "    |  " + englishScore + "   |");
-		System.out.println("Language  |  " + languageGrade + "    |  " + languageScore + "   |");
-		System.out.println("Science   |  " + scienceGrade + "  |  " + scienceScore + "   |");
+		System.out.println("------------------------------");
+		System.out.print("Math       |");
+		if (mathGrade == "A+" || mathGrade == "B+") { 
+			System.out.print("  " + mathGrade + "      |");
 	}
+		if (mathGrade == "A" || mathGrade == "B" || mathGrade == "C" || mathGrade == "F") {
+			System.out.print("  " + mathGrade + "        |");
 	}
+		if (mathScore < 10) {
+			System.out.println("  " + mathScore + "       |");
+		}
+		if (mathScore < 100 && mathScore > 9) {
+			System.out.println("  " + mathScore + "     |");
+		}
+		if(mathScore == 100) {
+			System.out.println("  " + mathScore + "    |");
+		}
+		
+		System.out.print("English    |");
+		if (englishGrade == "A+" || englishGrade == "B+") { 
+			System.out.print("  " + englishGrade + "      |");
+	}
+		if (englishGrade == "A" || englishGrade == "B" || englishGrade == "C" || englishGrade == "F") {
+			System.out.print("  " + englishGrade + "        |");
+	}
+		if (englishScore < 10) {
+			System.out.println("  " + englishScore + "       |");
+		}
+		if (englishScore < 100 && englishScore > 9) {
+			System.out.println("  " + englishScore + "     |");
+		}
+		if(englishScore == 100) {
+			System.out.println("  " + englishScore + "    |");
+		}
+		System.out.print("Language |");
+		if (languageGrade == "A+" || languageGrade == "B+") { 
+			System.out.print("  " + languageGrade + "      |");
+	}
+		if (languageGrade == "A" || languageGrade == "B" || languageGrade == "C" || languageGrade == "F") {
+			System.out.print("  " + languageGrade + "        |");
+	}
+		if (languageScore < 10) {
+			System.out.println("  " + languageScore + "       |");
+		}
+		if (languageScore < 100 && languageScore > 9) {
+			System.out.println("  " + languageScore + "     |");
+		}
+		if(languageScore == 100) {
+			System.out.println("  " + languageScore + "    |");
+		}
+		System.out.print("Science   |");
+		if (scienceGrade == "A+" || scienceGrade == "B+") { 
+			System.out.print("  " + scienceGrade + "      |");
+	}
+		if (scienceGrade == "A" || scienceGrade == "B" || scienceGrade == "C" || scienceGrade == "F") {
+			System.out.print("  " + scienceGrade + "        |");
+	}
+		if (scienceScore < 10) {
+			System.out.println("  " + scienceScore + "       |");
+		}
+		if (scienceScore < 100 && scienceScore > 9) {
+			System.out.println("  " +scienceScore + "     |");
+		}
+		if(scienceScore == 100) {
+			System.out.println("  " + scienceScore + "    |");
+		}
+	}
+}
