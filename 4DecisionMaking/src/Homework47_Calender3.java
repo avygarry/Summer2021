@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/**
+ * Chapter 4 Homework 7
+ * This program will identify how many days will be in that month and ask for the year so it also considers leap years
+ * @author Avy
+ */
 public class Homework47_Calender3 {
 	
 	public static int readUserIntInput (String aInputMsg) {
@@ -39,8 +43,8 @@ public class Homework47_Calender3 {
 		  case 12:dayInMonth = 31;
 		break;
 		}
-		System.out.println(month + ", " + year + " -> " + );
-		}else {
+		System.out.println(month + ", " + year + " -> " + dayInMonth);
+	}else {
 			switch (month) {
 			  case 1: System.out.println("31");
 			break;
@@ -66,9 +70,8 @@ public class Homework47_Calender3 {
 			break;
 			  case 12: System.out.println("31");
 			break;
+			System.out.println(month + ", " + year + " -> " + dayInMonth);
 			}
-		
-			
 			}
 		}
 	}

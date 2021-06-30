@@ -17,7 +17,7 @@ public class Homework45_Calender1 {
 		int num = readUserIntInput ("Enter the month number: ");
 		switch (num) {
 		  case 1: System.out.println("January");
-			  break;
+		break;
 		  case 2: System.out.println("February");
 		break;
 		  case 3: System.out.println("March");
@@ -39,7 +39,8 @@ public class Homework45_Calender1 {
 		  case 11: System.out.println("November");
 		break;
 		  case 12: System.out.println("December");
-		break;
+		default:
+			System.out.println("invalid");
 		
 		}
 		
