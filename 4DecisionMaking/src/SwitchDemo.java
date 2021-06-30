@@ -14,9 +14,6 @@ public class SwitchDemo {
 		  break;
 		  default: System.out.println("Stop");
 		  
-		  
-		
-		
 		}
 	}
 
