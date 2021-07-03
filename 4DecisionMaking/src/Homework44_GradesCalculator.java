@@ -150,7 +150,6 @@ public class Homework44_GradesCalculator {
 		float FinalGrade = FinalScore / 4;
 		System.out.println("Overall    |  " + FinalScore + "/ 400              |");
 		System.out.println("Overall    |  " + FinalGrade + "%  | ");
-		System.out.println("Subject   | Grade | Marks |");
 		
 
 		
