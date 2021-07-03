@@ -20,16 +20,14 @@ public class Homework53_TempConversion {
 		System.out.println("To get celsius to fahrenheit, enter CF");
 		String CFFC = readUserStringInput("Enter one option : ");
 		
-		if (CFFC == "FC") {
+		if (CFFC.equals("FC")) {
 			int FF = readUserIntInput("Enter the temperature in Fahrenheit: ");
 			int CC = (FF - 32) * 5/9;
 			System.out.println(FF + " F = " + CC + " C");
-		}
-		if (CFFC == "CF") {
+		}else {
 			int C = readUserIntInput("Enter the temperature in Celsius: ");
 			int F = C/5 * 9 + 32;
 			System.out.println(C + " C = " + F + " F");
-			
 		}
 	}
 }
