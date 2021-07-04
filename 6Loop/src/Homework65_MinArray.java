@@ -1,19 +1,18 @@
-import java.util.Scanner;
-
 /**
- * 
+ * Chapter 6 Homework 5
+ * This program asks the user for 4 numbers and then will tell which is the lowest
  * @author Avy
- *
  */
 public class Homework65_MinArray {
 	
 	public static void main(String[] args) {
 		int []numbers;
 		numbers = new int [4];
-		numbers[0] = ReadUserIntInput.readUserIntInput("Enter a number: ");
-		numbers[1] = ReadUserIntInput.readUserIntInput("Enter a number: ");
-		numbers[2] = ReadUserIntInput.readUserIntInput("Enter a number: ");
-		numbers[3] = ReadUserIntInput.readUserIntInput("Enter a number: ");
+		
+		for (int x = 0; x < 4; x++) {
+			numbers[x] = ReadUserIntInput.readUserIntInput("Enter the number " + (x+1) +": ");
+		}
+		
 		
 		int min = numbers[0];
 		for ( int number : numbers) {
