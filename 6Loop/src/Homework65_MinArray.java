@@ -7,10 +7,10 @@ public class Homework65_MinArray {
 	
 	public static void main(String[] args) {
 		int []numbers;
-		numbers = new int [4];
+		numbers = new int [5];
 		
-		for (int x = 0; x < 4; x++) {
-			numbers[x] = ReadUserIntInput.readUserIntInput("Enter the number " + (x+1) +": ");
+		for (int x = 0; x < numbers.length; x++) {
+			numbers[x] = ReadUserInput.readUserIntInput("Enter the number " + (x+1) +": ");
 		}
 		
 		
