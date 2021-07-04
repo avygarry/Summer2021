@@ -14,7 +14,5 @@ public class Homework69_Driving {
 		}else {
 			System.out.println("You aren't allowed to drive.");
 		}
-		
 	}
-
 }

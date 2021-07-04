@@ -8,7 +8,7 @@ public class Homework66_MultiplicationTable {
 	public static void main(String[] args) {
 		float num = ReadUserInput.readUserFloatInput("Enter a number: ");
 		
-		for (float x = 0; x<11; x++) {
+		for (float x = 1; x<11; x++) {
 			float multiply = num*x;
 			System.out.println(num + " x " + x + " = " + multiply);
 		}
