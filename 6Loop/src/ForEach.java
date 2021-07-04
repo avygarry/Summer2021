@@ -10,6 +10,7 @@ public class ForEach {
 		
 		for (int name : numbers) {
 			System.out.println(name);
+			
 		}
 	}
 }
