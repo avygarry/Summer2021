@@ -17,9 +17,9 @@ public static void main(String[] args) {
 		} 
 	}
 	if (NP == 1) {
-		System.out.println("The entered number is prime");
+		System.out.println("The entered number is prime.");
 	} else {
-		System.out.println("The entered number is not prime");
+		System.out.println("The entered number is not prime.");
 	}
 }
 }
