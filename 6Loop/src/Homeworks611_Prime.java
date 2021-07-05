@@ -1,7 +1,7 @@
 /**
- * 
+ * Chapter 6 Homework 11
+ * This program will tell you if your number is prime or not
  * @author Avy
- *
  */
 public class Homeworks611_Prime {
 public static void main(String[] args) {
