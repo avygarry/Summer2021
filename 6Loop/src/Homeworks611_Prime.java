@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		if (num % x != 0) {
 			NP = 1;
 		}
-		if (num % x != 0) {
+		if (num % x == 0) {
 			NP = 2;
 		} 
 	}
