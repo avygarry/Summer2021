@@ -8,12 +8,12 @@ public class Homework74_PrintFormat {
 		
 	}
 public static void main(String[] args) {
-	char charecter = readUserInput("Enter a charecter");
+	String charecter = ReadUserInput.readUserStringInput("Enter a charecter: ");
 	
 	System.out.println(charecter + "    ");
 	System.out.println(charecter + charecter + "   ");
 	System.out.println(charecter + charecter + charecter + "  ");
 	System.out.println(charecter + charecter + charecter + charecter + " ");
 	System.out.println(charecter + charecter + charecter + charecter + charecter);
-}
+	}
 }

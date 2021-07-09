@@ -8,8 +8,8 @@ public class ForEach {
 		numbers[2] = 3;
 		numbers[3] = 4;
 		
-		for (int name : numbers) {
-			System.out.println(name);
+		for (int number : numbers) {
+			System.out.println(number);
 			
 		}
 	}
