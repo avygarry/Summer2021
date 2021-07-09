@@ -32,9 +32,4 @@ public class ReadUserInput {
 	}
 	
 	
-	void nextChar() {
-		System.out.println("21");
-	}
-	
-	
 }
