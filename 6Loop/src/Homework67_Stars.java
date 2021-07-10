@@ -5,8 +5,11 @@
  */
 public class Homework67_Stars {
 	public static void main(String[] args) {
-		for (char x = '*'; x < ;) {
-			System.out.println(x);
+		for (int x = 0; x <= 4; x++) {
+			for (int index = 0; index < x; index++) {
+			System.out.print("* ");
+			}
+			System.out.println("*");
 		}
 	
 }
