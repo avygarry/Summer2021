@@ -41,14 +41,21 @@ public class AccountClass {
 				  AccountActivity activity = new AccountActivity();
 				  activity.setTxnDate(new Date());
 				  activity.setDescription("Cash Deposit");
-				  balance = aAmount + balance;  
+				  balance = aAmount + balance;
+	}
+				  
+	public void widraw(float aAmount) {
+		AccountActivity activity = new AccountActivity();
+		activity.setTxnDate(new Date());
+		activity.setDescription("Cash Widraw");
+		balance = aAmount - balance;
 		}
 	public void printActivities(){
 		System.out.println(" Name: " + name);
 		System.out.println(" Account Number: " + accountNumber);
 		System.out.println("-----------------------------------------------------------------");
 		System.out.println(" Date | Description | Action | Amount | Running Balance");
-		
+		System.out.println();
 		System.out.println("-----------------------------------------------------------------");
 	}
 }

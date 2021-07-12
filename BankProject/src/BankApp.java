@@ -22,7 +22,7 @@ public class BankApp {
 		AccountClass dhruv = new AccountClass();
 		dhruv.accountNumber = 3;
 		dhruv.name = "Dhruv";
-		dhruv.balance = 20032.34;
+		dhruv.balance = 3.29;
 		dhruv.accountType = 'g';
 		
 		
