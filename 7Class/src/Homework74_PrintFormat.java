@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/**
+ * Chapter 7 Homework 4
+ * For
+ * @author Avy
+ */
 public class Homework74_PrintFormat {
 	public static String readUserStringInput(String aInputMsg) {
 		System.out.print( aInputMsg + " ");
