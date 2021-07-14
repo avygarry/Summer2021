@@ -38,10 +38,10 @@ public class AccountClass {
 	}
 
 	public void deposit(float aAmount) {
-				  AccountActivity activity = new AccountActivity();
-				  activity.setTxnDate(new Date());
-				  activity.setDescription("Cash Deposit");
-				  balance = aAmount + balance;
+			AccountActivity activity = new AccountActivity();
+			activity.setTxnDate(new Date());
+			activity.setDescription("Cash Deposit");
+			balance = aAmount + balance;
 	}
 				  
 	public void widraw(float aAmount) {
