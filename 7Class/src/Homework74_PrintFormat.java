@@ -1,16 +1,10 @@
-import java.util.Scanner;
 /**
  * Chapter 7 Homework 4
- * For
+ * This program will print a specific pattern for the entered character.
  * @author Avy
  */
 public class Homework74_PrintFormat {
-	public static String readUserStringInput(String aInputMsg) {
-		System.out.print( aInputMsg + " ");
-		Scanner scanner = new Scanner(System.in);
-		return scanner.next();
-		
-	}
+	
 public static void main(String[] args) {
 	String charecter = ReadUserInput.readUserStringInput("Enter a charecter: ");
 	

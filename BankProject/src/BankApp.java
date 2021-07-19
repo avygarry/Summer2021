@@ -2,7 +2,7 @@
 public class BankApp {
 	public static void main(String[] args) {
 		AccountClass avy = new AccountClass();
-		avy.accountNumber = 0;
+		avy.setAccountNumber;accountNumber = 0;
 		avy.name = "Avy";
 		avy.balance = 20032.34;
 		avy.accountType = 'g';
