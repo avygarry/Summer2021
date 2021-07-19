@@ -7,10 +7,10 @@ public class Homework81_PrimeBetween {
 	public static boolean isPrime(int aNumber) {
 		for (int index = 25; index < 2000; index++) {
 			if (isPrime(index)) {
-				boolean prime = false;
-
+					return false;
+				
 			} else {
-				boolean prime = true;
+				return true;
 			}
 		}
 	}
