@@ -35,7 +35,7 @@ public static void main(String[] args) {
 	mars.hasRings = false;
 	
 	Homework83_Planets jupiter = new Homework83_Planets();
-	jupiter.orbitalDistance = ;
+	jupiter.orbitalDistance = 3037000000;
 	jupiter.distanceFromSun = 468120000;
 	jupiter.surfaceArea = 23710000000;
 	jupiter.lengthOfDay = 10;
@@ -67,5 +67,10 @@ public static void main(String[] args) {
 	mercury.hasRings = true;
 
 	System.out.println("------------------------------------------------------------");
+	System.out.println(" Name | Orbital Distance | Distance From Sun | Surface Area|  Length Of Day | ");
+	
+	
+	
 	}
+
 }
