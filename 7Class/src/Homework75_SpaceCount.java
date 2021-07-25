@@ -6,17 +6,16 @@
 public class Homework75_SpaceCount {
 	public static void main(String[] args) {
 		String sentence = ReadUserInput.readUserStringInput("Enter a sentence: ");
-		System.out.println(wordCount);
-	}
-	
-	public static int Space(int sentence) {
-		int wordCount;
-		String char[]  = wordCount.toCharArray(sentence);
-		for (char Chars : char[]) {
-			if (char = whitespace) {
+		int wordCount = 0;
+		char lastChar = 'a';
+		char[] chars = sentence.toCharArray();
+		for (char charecter : chars) {
+			if (charecter == ' ' && lastChar != ' ') {
 				wordCount++;
+			}
+			lastChar = charecter;
 		}
-		return wordCount;
+		wordCount++;
+		System.out.println("Word count: " + wordCount);
 	}
-}
 }

@@ -19,7 +19,7 @@ public class ReadUserInput {
 	public static String readUserStringInput(String aInputMsg) {
 		System.out.print( aInputMsg + " ");
 		Scanner scanner = new Scanner(System.in);
-		return scanner.next();
+		return scanner.nextLine();
 	}
 	
 	
