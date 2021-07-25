@@ -27,12 +27,14 @@ public class Homework85_AddressBook {
 
 		for (Homework85_Contact contact : contacts) {
 			if (name.equalsIgnoreCase(contact.getFirstName())) {
+				System.out.println("-------------------------------------------------");
 				System.out.println(contact.getFirstName() + " " + contact.getLastName());
 				System.out.println(contact.getEmailId());
 				System.out.println(contact.getCellPhoneNumber());
 				System.out.println(contact.getHomePhoneNumber());
 				System.out.println(contact.getWorkPhoneNumber());
 				System.out.println(contact.getNotes());
+				System.out.println("-------------------------------------------------");
 			}
 			
 		}
