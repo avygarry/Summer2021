@@ -6,20 +6,16 @@
 public class Homeworks611_Prime {
 public static void main(String[] args) {
 	int num = ReadUserInput.readUserIntInput("Enter a number: ");
-	String NP = "a";
 	
-	for (int x = 1; x < num; x++) {
+	for (int x = 2; x < num; x++) {
 		if (num % x == 0) {
-			NP ="Prime";
-		}else {
-//		 (num % x != 0) {
-			NP = "Composite";
-		} 
+			System.out.println(num + " is composite");
+			break;
+		} else {
+			System.out.println(num + " is prime");
+			break;
+		}
 	}
-	if (NP.equalsIgnoreCase("Prime")) {
-		System.out.println("The entered number is prime.");
-	} else {// if (NP.equalsIgnoreCase("Composite")) {
-		System.out.println("The entered number is Composite.");
-	}
+
 }
 }
