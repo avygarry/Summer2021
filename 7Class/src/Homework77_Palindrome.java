@@ -6,7 +6,7 @@ public class Homework77_Palindrome {
 		char lastChar = 'a';
 		boolean palindrome = true;
 		int length = chars.length - 1;
-		for (int i = 0; i < chars.length - 1; i++) {
+		for (int i = 0; i < chars.length/2; i++) {
 			lastChar = chars[length];
 			length--;
 			if (chars[i] != lastChar) {

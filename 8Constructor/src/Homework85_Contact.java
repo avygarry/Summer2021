@@ -1,5 +1,6 @@
 
 public class Homework85_Contact {
+	
 	private String FirstName;
 	private String LastName;
 	private String EmailId;
@@ -8,6 +9,7 @@ public class Homework85_Contact {
 	private String WorkPhoneNumber;
 	private String Address;
 	private String Notes;
+	
 	public String getFirstName() {
 		return FirstName;
 	}

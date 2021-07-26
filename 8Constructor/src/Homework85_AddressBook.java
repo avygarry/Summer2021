@@ -1,6 +1,7 @@
 
 public class Homework85_AddressBook {
 	public static void main(String[] args) {
+		
 		Homework85_Contact avy = new Homework85_Contact();
 		avy.setFirstName("Avy");
 		avy.setLastName("Garothaya");
@@ -9,7 +10,8 @@ public class Homework85_AddressBook {
 		avy.setHomePhoneNumber("N/A");
 		avy.setWorkPhoneNumber("N/A");
 		avy.setNotes("Smart Guy");
-
+	
+		
 		Homework85_Contact dhyeya = new Homework85_Contact();
 		dhyeya.setFirstName("Dhyeya");
 		dhyeya.setLastName("Chandi");
@@ -22,6 +24,8 @@ public class Homework85_AddressBook {
 		Homework85_Contact[] contacts = new Homework85_Contact[2];
 		contacts[0] = avy;
 		contacts[1] = dhyeya;
+	
+		
 
 		String name = ReadUserInput.readUserStringInput("Enter a name: ");
 
