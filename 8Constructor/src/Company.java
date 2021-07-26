@@ -3,7 +3,6 @@ public class Company {
 	
 	public static void main (String[] args) {
 		
-		double highestSalary = 0;
 
 		Employee avySir= new Employee();
 		avySir.name = "Avy";
@@ -28,14 +27,15 @@ public class Company {
 		employees[1] = vijay;
 		employees[2] = boberman;
 		
-	}
-		public static double greatestSalary(double num) {
-			for (int i = 0; i <= 3; i++) {
-				if (employees[i] > highestSalary) {
-					highestSalary = employees[i];
+		double highestSalary = 0;
+		for (int i = 0; i <= 2; i++) {
+			if (employees[i].salary > highestSalary) {
+				highestSalary = employees[i].salary;
+				Employee employeeProfile = 
 				}
 				
 		
 			}
+		System.out.println(highestSalary);
 		}
 	}
