@@ -31,7 +31,7 @@ public class Company {
 		for (int i = 0; i <= 2; i++) {
 			if (employees[i].salary > highestSalary) {
 				highestSalary = employees[i].salary;
-				Employee employeeProfile = 
+				Employee employeeProfile = employees[i];
 				}
 				
 		
